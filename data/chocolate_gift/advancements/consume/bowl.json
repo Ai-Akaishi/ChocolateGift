@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "common": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "nbt": "{Tags:[ChocolateGift]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "chocolate_gift:consume/bowl"
+    }
+}

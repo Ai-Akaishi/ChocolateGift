@@ -1,0 +1,29 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:salmon_spawn_egg"
+        },
+        {
+            "item": "minecraft:salmon_spawn_egg"
+        },
+        {
+            "item": "minecraft:salmon_spawn_egg"
+        },
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "minecraft:cod_spawn_egg"
+        },
+        {
+            "item": "minecraft:milk_bucket"
+        },
+        {
+            "item": "minecraft:dark_oak_trapdoor"
+        }
+    ],
+    "result": {
+        "item": "minecraft:dark_oak_trapdoor"
+    }
+}

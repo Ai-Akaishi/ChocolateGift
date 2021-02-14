@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1.0
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "カカオマス",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,EntityTag:{DeathLootTable:\"chocolate_gift:cacao_mass\",ActiveEffects:[{Id:14b,Amplifier:127b,ShowParticles:false,Ambient:false,Duration:100},{Id:7b,Amplifier:3b,ShowParticles:false,Ambient:false,Duration:100}],DeathTime:19s}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

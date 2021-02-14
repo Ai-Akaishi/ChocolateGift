@@ -1,0 +1,56 @@
+{
+    "criteria": {
+        "mainhand": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:suspicious_stew",
+                    "nbt": "{ChocolateGift:true}"
+                },
+                "player": {
+                    "nbt": "{SelectedItem:{tag:{ChocolateGift:true}}}"
+                }
+            }
+        },
+        "both": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:suspicious_stew",
+                    "nbt": "{ChocolateGift:true}"
+                }
+            }
+        },
+        "normal": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:suspicious_stew",
+                    "nbt": "{ChocolateGift:true,Spicy:false}"
+                }
+            }
+        },
+        "spicy": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:suspicious_stew",
+                    "nbt": "{ChocolateGift:true,Spicy:true}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "normal",
+            "spicy"
+        ],
+        [
+            "mainhand",
+            "both"
+        ]
+    ],
+    "rewards": {
+        "function": "chocolate_gift:consume/chocolate"
+    }
+}

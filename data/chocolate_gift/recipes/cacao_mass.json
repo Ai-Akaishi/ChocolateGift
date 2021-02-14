@@ -1,0 +1,9 @@
+{
+    "type": "smelting",
+    "ingredient": {
+        "item": "minecraft:cocoa_beans"
+    },
+    "cookingtime":100,
+    "experience": 1,
+    "result": "minecraft:brown_dye"
+}

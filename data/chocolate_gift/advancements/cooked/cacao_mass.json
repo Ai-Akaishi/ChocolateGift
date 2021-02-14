@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "active": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "chocolate_gift:cacao_mass"
+            }
+        }
+    },
+    "rewards": {
+        "function": "chocolate_gift:cooked/cacao_mass"
+    }
+}

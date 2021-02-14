@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1.0
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "ホワイトチョコレート",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "selector": "@s",
+                    "color": "#FF858C",
+                    "italic": false
+                  },
+                  {
+                    "text": "の手作り"
+                  }
+                ]
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:3,Effects:[{EffectId:10b,EffectDuration:200}],ChocolateGift:true,Spicy:true}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

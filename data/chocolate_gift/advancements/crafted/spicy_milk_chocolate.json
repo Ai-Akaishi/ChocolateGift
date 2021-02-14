@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "active": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "chocolate_gift:spicy_milk_chocolate"
+            }
+        }
+    },
+    "rewards": {
+        "function": "chocolate_gift:crafted/spicy_milk_chocolate"
+    }
+}
