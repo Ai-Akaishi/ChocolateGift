@@ -5,6 +5,10 @@
 
 # 動作確認済みバージョン / Verified minecraft versions
 
+- 1.17
+
+以下のバージョンは右のReleasesからどうぞ。  
+For the following versions, please check Releases on the right.
 - 1.16.4
 - 1.16.4 Spigot
 - 1.16.5
