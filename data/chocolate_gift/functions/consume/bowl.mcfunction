@@ -6,8 +6,8 @@ tag @s remove ChocolateGift
 advancement revoke @s only chocolate_gift:consume/bowl
 
 # ボウルを消す
-replaceitem entity @s[tag=ChocolateGiftOffhand] weapon.offhand minecraft:air
-replaceitem entity @s[tag=!ChocolateGiftOffhand] weapon.mainhand minecraft:air
+item replace entity @s[tag=ChocolateGiftOffhand] weapon.offhand with minecraft:air
+item replace entity @s[tag=!ChocolateGiftOffhand] weapon.mainhand with minecraft:air
 tag @s remove ChocolateGiftOffhand
 
 # 通常チョコなら演出

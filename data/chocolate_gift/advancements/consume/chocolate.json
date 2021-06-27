@@ -4,7 +4,9 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "item": "minecraft:suspicious_stew",
+                    "items": [
+                        "minecraft:suspicious_stew"
+                    ],
                     "nbt": "{ChocolateGift:true}"
                 },
                 "player": {
@@ -16,7 +18,9 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "item": "minecraft:suspicious_stew",
+                    "items": [
+                        "minecraft:suspicious_stew"
+                    ],
                     "nbt": "{ChocolateGift:true}"
                 }
             }
@@ -25,7 +29,9 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "item": "minecraft:suspicious_stew",
+                    "items": [
+                        "minecraft:suspicious_stew"
+                    ],
                     "nbt": "{ChocolateGift:true,Spicy:false}"
                 }
             }
@@ -34,7 +40,9 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "item": "minecraft:suspicious_stew",
+                    "items": [
+                        "minecraft:suspicious_stew"
+                    ],
                     "nbt": "{ChocolateGift:true,Spicy:true}"
                 }
             }
