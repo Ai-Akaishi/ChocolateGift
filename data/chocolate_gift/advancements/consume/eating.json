@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "eating_chocolate": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:suspicious_stew"
+                    ],
+                    "nbt": "{ChocolateGift:true}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "chocolate_gift:consume/eating"
+    }
+}

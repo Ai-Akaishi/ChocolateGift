@@ -1,19 +1,5 @@
 {
     "criteria": {
-        "mainhand": {
-            "trigger": "minecraft:consume_item",
-            "conditions": {
-                "item": {
-                    "items": [
-                        "minecraft:suspicious_stew"
-                    ],
-                    "nbt": "{ChocolateGift:true}"
-                },
-                "player": {
-                    "nbt": "{SelectedItem:{tag:{ChocolateGift:true}}}"
-                }
-            }
-        },
         "both": {
             "trigger": "minecraft:consume_item",
             "conditions": {
@@ -54,7 +40,6 @@
             "spicy"
         ],
         [
-            "mainhand",
             "both"
         ]
     ],
